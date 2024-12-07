@@ -1,13 +1,17 @@
 import requests
 from requests.auth import HTTPBasicAuth
+import yaml
+# Load the API token from config.yaml
+with open("conifg.yaml", "r") as file:
+    config = yaml.safe_load(file)
+    api_token = config["api_token"]
+    email = config["credentials"]["email"]
 
 # Jira Cloud URL and credentials
 jira_url = "https://one-atlas-nicz.atlassian.net/"
 ticket_key = "DESIGN-2"  # Replace with your ticket key
 api_endpoint = f"{jira_url}/rest/api/3/issue/{ticket_key}"
 
-# Replace with your email and API token
-email = "lukas.preidt@startstuttgart.org"
 
 # Headers for the request
 headers = {
