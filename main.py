@@ -2,7 +2,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 import yaml
 # Load the API token from config.yaml
-with open("conifg.yaml", "r") as file:
+with open("config.yaml", "r") as file:
     config = yaml.safe_load(file)
     api_token = config["api_token"]
     email = config["credentials"]["email"]
