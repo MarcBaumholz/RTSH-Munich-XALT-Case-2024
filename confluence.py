@@ -5,7 +5,8 @@ from requests.auth import HTTPBasicAuth
 
 # Confluence API Details
 confluence_url = "https://one-atlas-nicz.atlassian.net/wiki/rest/api/content"
-confluence_api_token = "ATATT3xFfGF0twe2_EsPpehBxwIxkodTEj2N-4iUr-7XMUVYPbUkeLgOqOJHBEjCgC_Z8GMir9NiA3oiBAV_D6IVleJ-7Mn5YZl6CXLdJOD6R8C59Ho6TyzvM314QZuE_GC2m1MIJEursbnLRZxJFRxhayF2Sbh-jb5jzoASDX-p8xTVUmlIwWA=39F389D8"
+confluence_api_token = "123"
+#"ATATT3xFfGF0twe2_EsPpehBxwIxkodTEj2N-4iUr-7XMUVYPbUkeLgOqOJHBEjCgC_Z8GMir9NiA3oiBAV_D6IVleJ-7Mn5YZl6CXLdJOD6R8C59Ho6TyzvM314QZuE_GC2m1MIJEursbnLRZxJFRxhayF2Sbh-jb5jzoASDX-p8xTVUmlIwWA=39F389D8"
 confluence_email = "marc.baumholz@startstuttgart.org"
 space_key = "EO"  # Replace with your Confluence space key
 parent_page_id = 3571986  # Replace with the parent page ID (if needed)
