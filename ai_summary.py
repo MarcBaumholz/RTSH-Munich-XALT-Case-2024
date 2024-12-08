@@ -71,4 +71,3 @@ if response.status_code == 200:
 else:
     print(f"Failed to fetch the ticket. HTTP Status Code: {response.status_code}")
     print(response.text)
-
